@@ -1,0 +1,13 @@
+/* CSS here */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.flex-container {
+  display: flex;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
