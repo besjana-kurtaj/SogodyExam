@@ -1,13 +1,27 @@
-/* CSS here */
-.grid-container {
+#grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
-.flex-container {
-  display: flex;
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
 }
-img {
-  height: 100px;
-  width: 100px;
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.grid-item h3 {
+  margin-top: 10px;
+}
+
+.grid-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888888;
 }
